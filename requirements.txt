@@ -1,0 +1,21 @@
+Flask==0.10.1
+#Jinja2
+#werkzeug
+#markupsafe
+#itsdangerous
+SQLAlchemy
+redis
+WTForms
+twython
+PIL
+#markdown==2.5
+
+# pygit2
+Libgit2==v0.21.1
+cffi==0.8.1+
+
+#bootstrap==2.3.2
+#jquery==1.11.1
+
+#Search
+whoosh==2.5.6

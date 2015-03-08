@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title %}Archive List{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+{% block body %}
+  {% if archive %}
+    {{ archive|safe }}
+  {% endif %}
+{% endblock %}

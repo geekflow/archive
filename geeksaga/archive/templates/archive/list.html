@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block title %}Archive List{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+{% block body %}
+  <ul class="nav">
+  {% for entry in entries %}
+    <li><a href="{{ url_for('frontend.read', page=entry) }}">{{ entry }}</a></li>
+  {% else %}
+    <li><em>Unbelievable.  No entries here so far</em></li>
+  {% endfor %}
+  </ul>
+{% endblock %}
